@@ -54,4 +54,27 @@ h4 {
 .img_restau_4 {
   width: 10%;
 }
+
+.fonc_1 {
+  border: 2px solid #f6f6f6;
+  background-color: #f6f6f6;
+  margin: 5px;
+}
+
+.fonc_2 {
+  border: 2px solid #f6f6f6;
+  background-color: #f6f6f6;
+  margin: 5px;
+}
+
+.fonc_3 {
+  border: 2px solid #f6f6f6;
+  background-color: #f6f6f6;
+  margin: 5px;
+}
+
+.btn {
+  border: 2px solid #9356DC;
+  background-color: #9356DC;
+}
 /*# sourceMappingURL=style.css.map */

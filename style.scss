@@ -1,6 +1,7 @@
 $cd-primaire: #9356DC;
 $cd-secondaire: #FF79DA;
 $cd-tertiaire: #99E2D0;
+$restau-margin: 6px;
 
 footer {
     background-color: #353535;
@@ -17,4 +18,28 @@ article {
 
 h4 {
     background-color: #eaeaea;
+}
+
+.restau_1 {
+    border: 2px solid #f6f6f6;
+    background-color: snow;
+    margin: $restau-margin;
+}
+
+.restau_2 {
+    border: 2px solid #f6f6f6;
+    background-color: snow;
+    margin: $restau-margin;
+}
+
+.restau_3 {
+    border: 2px solid #f6f6f6;
+    background-color: snow;
+    margin: $restau-margin;
+}
+
+.restau_4 {
+    border: 2px solid #f6f6f6;
+    background-color: snow;
+    margin: $restau-margin;
 }

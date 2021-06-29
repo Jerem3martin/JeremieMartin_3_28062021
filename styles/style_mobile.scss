@@ -1,3 +1,10 @@
-.img_restau_2 {
-    width: 100%;
+.logo {
+    display: flex;
+    width: 50%;
+}
+
+.img_restau {
+    &_1, &_2, &_3, &_4 {
+        width: 100%;
+    }
 }

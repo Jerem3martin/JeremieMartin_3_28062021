@@ -1,4 +1,11 @@
-.img_restau_2 {
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.img_restau_1, .img_restau_2, .img_restau_3, .img_restau_4 {
   width: 100%;
 }
 /*# sourceMappingURL=style_mobile.css.map */

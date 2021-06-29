@@ -8,4 +8,10 @@
 .img_restau_1, .img_restau_2, .img_restau_3, .img_restau_4 {
   width: 100%;
 }
+
+.img_restau_2, .img_restau_4 {
+  max-height: 394px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=style_mobile.css.map */

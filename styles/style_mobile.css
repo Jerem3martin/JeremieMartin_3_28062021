@@ -1,8 +1,8 @@
-@media
-screen and (max_width: 675px) {
-
 .logo {
     display: flex;
-    
+
 }
+
+h4 {
+    color:red;
 }

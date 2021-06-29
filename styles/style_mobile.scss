@@ -1,6 +1,18 @@
 .logo {
     display: flex;
     width: 50%;
+    margin: auto;
+}
+
+.intro_lieu {
+    display: flex;
+    justify-content: center;
+}
+
+.intro_menu, aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .img_restau {

@@ -8,11 +8,7 @@ footer {
     color: snow;
 }
 
-section {
-    background-color: #f6f6f6;
-}
-
-article {
+section, article {
     background-color: #f6f6f6;
 }
 
@@ -20,58 +16,25 @@ h4 {
     background-color: #eaeaea;
 }
 
-.card_restau_1 {
+.card_restau {
+    &_1, &_2, &_3, &_4{
     border: 2px solid #f6f6f6;
     background-color: snow;
     margin: $restau-margin;
 }
-.img_restau_1 {
-    width: 10%;
+}
+.img_restau {
+    &_1, &_2, &_3, &_4 {
+          width: 10%;
+    }
 }
 
-.card_restau_2 {
-    border: 2px solid #f6f6f6;
-    background-color: snow;
-    margin: $restau-margin;
-}
-.img_restau_2 {
-    width: 10%;
-}
-
-.card_restau_3 {
-    border: 2px solid #f6f6f6;
-    background-color: snow;
-    margin: $restau-margin;
-}
-.img_restau_3 {
-    width: 10%;
-}
-
-.card_restau_4 {
-    border: 2px solid #f6f6f6;
-    background-color: snow;
-    margin: $restau-margin;
-}
-.img_restau_4 {
-    width: 10%;
-}
-
-.fonc_1 {
+.fonc {
+    &_1, &_2, &_3, &_4{
     border: 2px solid #f6f6f6;
     background-color: #f6f6f6;
     margin: 5px;
 }
-
-.fonc_2 {
-    border: 2px solid #f6f6f6;
-    background-color: #f6f6f6;
-    margin: 5px;
-}
-
-.fonc_3 {
-    border: 2px solid #f6f6f6;
-    background-color: #f6f6f6;
-    margin: 5px;
 }
 
 .btn {

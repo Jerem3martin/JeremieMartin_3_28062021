@@ -7,12 +7,23 @@
 .intro_lieu {
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #eaeaea;
 }
 
 .intro_menu, aside {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.btn {
+    display: flex;
+    align-self: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0 40px 0;
 }
 
 .img_restau {

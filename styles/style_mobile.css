@@ -13,6 +13,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
+  margin-bottom: 0;
+  background-color: #eaeaea;
 }
 
 .intro_menu, aside {
@@ -24,6 +27,17 @@
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0 40px 0;
 }
 
 .img_restau_1, .img_restau_2, .img_restau_3, .img_restau_4 {

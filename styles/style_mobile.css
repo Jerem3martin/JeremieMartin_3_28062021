@@ -47,6 +47,18 @@
   margin: 20px 0 40px 0;
 }
 
+.fonc_1, .fonc_2, .fonc_3, .fonc_4 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
 .img_restau_1, .img_restau_2, .img_restau_3, .img_restau_4 {
   width: 100%;
 }

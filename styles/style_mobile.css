@@ -2,7 +2,6 @@
   font-family: "roboto";
   src: local(police/Roboto-Light) format(ttf);
 }
-
 p {
   font-family: "roboto";
 }
@@ -11,9 +10,8 @@ p {
   font-family: "shrikhand";
   src: local(police/Shrikhand-Regular) format(ttf);
 }
-
 h2 {
-  font-family: "shrikhand";
+  font-family: "shrikhand", Arial, Helvetica, sans-serif;
 }
 
 .logo {

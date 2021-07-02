@@ -7,6 +7,15 @@ p {
   font-family: "roboto";
 }
 
+@font-face {
+  font-family: "shrikhand";
+  src: local(police/Shrikhand-Regular) format(ttf);
+}
+
+h2 {
+  font-family: "shrikhand";
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;

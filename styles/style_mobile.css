@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "roboto";
+  src: local(police/Roboto-Light) format(ttf);
+}
+
+p {
+  font-family: "roboto";
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;

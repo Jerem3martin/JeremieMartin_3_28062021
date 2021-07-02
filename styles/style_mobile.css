@@ -1,6 +1,8 @@
 @font-face {
   font-family: "roboto";
   src: local(police/Roboto-Light) format(ttf);
+  font-family: "roboto_bold";
+  src: local(police/Roboto-Bold) format(ttf);
 }
 p {
   font-family: "roboto";
@@ -10,8 +12,16 @@ p {
   font-family: "shrikhand";
   src: local(police/Shrikhand-Regular) format(ttf);
 }
-h1, h2, h3, h4 {
-  font-family: "shrikhand", Arial, Helvetica, sans-serif;
+.intro_lieu, .titre_footer {
+  font-family: "shrikhand",;
+}
+
+.titre_section {
+  font-family: "roboto_bold";
+}
+
+.titre_footer {
+  font-style: italic;
 }
 
 .logo {

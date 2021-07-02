@@ -25,10 +25,6 @@ section, article {
   background-color: #f6f6f6;
 }
 
-h4 {
-  background-color: #eaeaea;
-}
-
 .card_restau_1, .card_restau_2, .card_restau_3, .card_restau_4 {
   border: 2px solid #f6f6f6;
   background-color: snow;

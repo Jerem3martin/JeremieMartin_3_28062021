@@ -10,7 +10,7 @@ p {
   font-family: "shrikhand";
   src: local(police/Shrikhand-Regular) format(ttf);
 }
-h2 {
+h1, h2, h3, h4 {
   font-family: "shrikhand", Arial, Helvetica, sans-serif;
 }
 

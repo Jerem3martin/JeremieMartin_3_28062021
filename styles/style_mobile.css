@@ -1,29 +1,3 @@
-@font-face {
-  font-family: "roboto";
-  src: local(police/Roboto-Light) format(ttf);
-  font-family: "roboto_bold";
-  src: local(police/Roboto-Bold) format(ttf);
-}
-p, .btn {
-  font-family: "roboto";
-}
-
-@font-face {
-  font-family: "shrikhand";
-  src: local(police/Shrikhand-Regular) format(ttf);
-}
-.intro_lieu, .titre_footer {
-  font-family: "shrikhand",;
-}
-
-.titre_section {
-  font-family: "roboto_bold";
-}
-
-.titre_footer {
-  font-style: italic;
-}
-
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95,6 +69,11 @@ p, .btn {
       align-self: center;
   padding: 10px;
   border-radius: 15px;
+}
+
+.fonc_1:hover, .fonc_2:hover, .fonc_3:hover, .fonc_4:hover {
+  background-color: #9356DC;
+  opacity: 0.1;
 }
 
 .img_restau_1, .img_restau_2, .img_restau_3, .img_restau_4 {

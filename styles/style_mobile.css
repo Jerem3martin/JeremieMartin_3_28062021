@@ -4,7 +4,7 @@
   font-family: "roboto_bold";
   src: local(police/Roboto-Bold) format(ttf);
 }
-p {
+p, .btn {
   font-family: "roboto";
 }
 

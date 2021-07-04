@@ -36,6 +36,10 @@
   text-align: center;
 }
 
+li {
+  border: 2px solid #9356DC;
+}
+
 .btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +61,7 @@
           flex-direction: column;
 }
 
-.fonc_1, .fonc_2, .fonc_3, .fonc_4 {
+.fonc_texte {
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,16 +75,13 @@
   border-radius: 15px;
 }
 
-.fonc_1:hover, .fonc_2:hover, .fonc_3:hover, .fonc_4:hover {
+.fonc_texte:hover {
   background-color: #9356DC;
   opacity: 0.1;
 }
 
-.img_restau_1, .img_restau_2, .img_restau_3, .img_restau_4 {
+.img_restau {
   width: 100%;
-}
-
-.img_restau_2, .img_restau_4 {
   max-height: 394px;
   -o-object-fit: cover;
      object-fit: cover;

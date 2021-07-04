@@ -27,6 +27,10 @@ $cd-tertiaire: #99E2D0;
     text-align: center;
 }
 
+li {
+    border: 2px solid $cd-primaire;
+}
+
 .btn {
     display: flex;
     align-self: center;
@@ -40,8 +44,7 @@ $cd-tertiaire: #99E2D0;
     flex-direction: column;
 }
 
-.fonc {
-    &_1, &_2, &_3, &_4{
+.fonc_texte {
         width: 50%;
         display: flex;
         justify-content: center;
@@ -52,16 +55,11 @@ $cd-tertiaire: #99E2D0;
             background-color: $cd-primaire;
             opacity: 0.1;
         }
-    }
 }
 .img_restau {
-    &_1, &_2, &_3, &_4 {
         width: 100%;
-    }
-    &_2, &_4 {
         max-height: 394px;
         object-fit: cover;
-    }
 }
 
 .far {

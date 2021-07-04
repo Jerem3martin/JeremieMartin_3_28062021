@@ -17,24 +17,15 @@ h4 {
 }
 
 .card_restau {
-    &_1, &_2, &_3, &_4{
     border: 2px solid #f6f6f6;
     background-color: snow;
     margin: $restau-margin;
 }
-}
-.img_restau {
-    &_1, &_2, &_3, &_4 {
-          width: 10%;
-    }
-}
 
-.fonc {
-    &_1, &_2, &_3, &_4{
+.fonc_texte {
     border: 2px solid #f6f6f6;
     background-color: #f6f6f6;
     margin: 5px;
-}
 }
 
 .btn {

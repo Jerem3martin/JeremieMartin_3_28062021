@@ -27,8 +27,23 @@ $cd-tertiaire: #99E2D0;
     text-align: center;
 }
 
-li {
+.fonction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fonc_number {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 150px;
     border: 2px solid $cd-primaire;
+    background-color: $cd-primaire;
+    border-radius: 50px;
+    padding: 10px;
+    max-height: 10px;
+    max-width: 10px;
+    color: white;
 }
 
 .btn {

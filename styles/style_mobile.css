@@ -36,8 +36,34 @@
   text-align: center;
 }
 
-li {
+.fonction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fonc_number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 150px;
   border: 2px solid #9356DC;
+  background-color: #9356DC;
+  border-radius: 50px;
+  padding: 10px;
+  max-height: 10px;
+  max-width: 10px;
+  color: white;
 }
 
 .btn {

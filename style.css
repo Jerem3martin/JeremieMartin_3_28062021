@@ -4,7 +4,11 @@ footer {
   padding: 10px 0 20px 20px;
 }
 
-section, article {
+section {
+  padding-bottom: 30px;
+}
+
+section, section article {
   background-color: #f6f6f6;
 }
 

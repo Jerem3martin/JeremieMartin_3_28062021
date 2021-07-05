@@ -73,8 +73,12 @@
   -ms-flex-item-align: center;
       align-self: center;
   border-radius: 30px;
-  padding: 10px;
+  padding: 20px;
   margin: 20px 0 40px 0;
+  font-size: 1em;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff93e1), to(#782cd3));
+  background: linear-gradient(top, #ff93e1 0%, #782cd3 100%);
 }
 
 .texte_menu {
@@ -109,11 +113,26 @@
   opacity: 0.1;
 }
 
+.titre_section {
+  font-size: 1.6em;
+  padding-left: 20px;
+}
+
+.card_restau {
+  margin-bottom: 20px;
+}
+
 .img_restau {
-  width: 100%;
+  width: 94%;
   max-height: 394px;
   -o-object-fit: cover;
      object-fit: cover;
+  padding-left: 20px;
+  margin: 0px;
+}
+
+.info_menu {
+  margin-top: 0px;
 }
 
 .far {

@@ -98,6 +98,12 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   z-index: 1;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
+}
+
+.fonc_texte:hover {
+  background-color: #f2eafb;
 }
 
 .titre_section {

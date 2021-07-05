@@ -114,6 +114,7 @@
 .card_restau {
   margin: 0px 20px 20px 20px;
   background-color: white;
+  border-radius: 20px;
 }
 
 .img_restau {
@@ -122,6 +123,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   margin: 0px;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .info_menu {
@@ -139,6 +141,7 @@
   width: 50%;
   -ms-flex-item-align: center;
       align-self: center;
+  padding-left: 10px;
 }
 
 .far {

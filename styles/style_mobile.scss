@@ -67,7 +67,7 @@ $cd-tertiaire: #99E2D0;
         z-index: 1 ;
         transition: background-color 250ms;
         &:hover {
-            background-color: lighten($cd-primaire,35);
+                 background-color: lighten($cd-primaire,35);
         }
 }
 
@@ -99,4 +99,10 @@ $cd-tertiaire: #99E2D0;
     position: absolute;
     left: 92%;
     top: 93%;
+}
+a {
+    text-decoration: none;
+    &:visited {
+        color: black;
+    }
 }

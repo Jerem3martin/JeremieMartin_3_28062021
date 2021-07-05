@@ -146,4 +146,12 @@
   left: 92%;
   top: 93%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
 /*# sourceMappingURL=style_mobile.css.map */

@@ -142,12 +142,28 @@
   -ms-flex-item-align: center;
       align-self: center;
   padding-left: 10px;
+  line-height: 0;
 }
 
-.far {
+.coeur {
   position: absolute;
-  left: 92%;
-  top: 93%;
+  left: 87%;
+}
+
+.coeur_1 {
+  top: 103%;
+}
+
+.coeur_2 {
+  top: 146%;
+}
+
+.coeur_3 {
+  top: 188%;
+}
+
+.coeur_4 {
+  top: 231%;
 }
 
 a {

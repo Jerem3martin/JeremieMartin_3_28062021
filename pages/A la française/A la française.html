@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" media="screen and (max-width: 675px)" href="styles/style_mobile.css" />
+    <link rel="stylesheet" media="screen and (max-width: 675px)" href="style.css" />
 	<title>À la française</title>
 </head>
 
@@ -14,10 +14,11 @@
     <h2>ohmyfood</h2>
 </header>
 
-<img src="toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française">
+<img class="pics" src="toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française">
 
+<main> 
 <nav>
-<h2>À la française</h2> <i class="far fa-heart"></i>
+<h2>À la française</h2> <div class="coeur"> <i class="far fa-heart"></i> </div>
 </nav>
 
 <article class="entrée">
@@ -26,19 +27,19 @@
         <div class="entrée_1">
             <h4>Tartare de poulpe acidulé</h4>
             <p>Aux zest d'orange</p>
-            <p>25€</p>
+            <div class="prix"> <p>25€</p> </div>
         </div>
 
         <div class="entrée_2">
             <h4>Velouté de légumes d'antan</h4>
             <p>Carotte,panais,topinambour</p>
-            <p>35€</p>
+            <div class="prix"> <p>35€</p> </div>
         </div>
 
         <div class="entrée_3">
             <h4>Soupe à l'oignon</h4>
             <p>Revisitée</p>
-            <p>20€</p>
+            <div class="prix"> <p>20€</p> </div>
         </div>
 </article>
 
@@ -48,19 +49,19 @@
     <div class="plat_1">
         <h4>Coquilles Saint-Jacques</h4>
         <p>Accompagnées d'une purée de panais</p>
-        <p>40€</p>
+        <div class="prix"> <p>40€</p> </div>
     </div>
 
     <div class="plat_2">
         <h4>Magret de canard</h4>
         <p>Et parmentier de pommes de terres</p>
-        <p>35€</p>
+        <div class="prix"> <p>35€</p> </div>
     </div>
 
     <div class="plat_3">
         <h4>Pigeonneau d'ille-et-vilaine</h4>
         <p>Sur son lit de gnocchis aux légumes</p>
-        <p>44€</p>
+        <div class="prix"> <p>44€</p></div>
     </div>
 </article>
 
@@ -70,23 +71,25 @@
     <div class="dessert_1">
         <h4>Pétales de violettes glacés</h4>
         <p>Et purée de noisettes</p>
-        <p>18€</p>
+        <div class="prix"> <p>18€</p> </div>
     </div>
 
     <div class="dessert_2">
         <h4>Fondant au chocolat</h4>
         <p>Revisité</p>
-        <p>22€</p>
+        <div class="prix"> <p>22€</p></div>
     </div>
 
     <div class="dessert_3">
         <h4>Millefeuille croustillant</h4>
         <p>Myrtilles et pâte d'amende</p>
-        <p>23€</p>
+        <div class="prix"> <p>23€</p> </div>
     </div>
 </article>
 
-<button class="btn">Commander</button>
+<button class="btn" type="button">Commander</button>
+
+</main>
 
 <footer>
     <h2>Ohmyfood</h2>

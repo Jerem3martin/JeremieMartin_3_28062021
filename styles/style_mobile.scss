@@ -4,7 +4,11 @@ $cd-tertiaire: #99E2D0;
 
 @font-face {
     font-family: "shrikhand";
-    src: local(police/shrikhand) format(ttf);
+    src: url(police/Shrikhand-Regular.ttf);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(police/Roboto-Regular.ttf);
 }
 
 .logo {
@@ -120,6 +124,9 @@ a {
     }
 }
 
-footer {
+.titre_footer {
     font-family: "shrikhand";
+}
+main {
+    font-family: "roboto";
 }

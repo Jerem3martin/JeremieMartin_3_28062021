@@ -16,6 +16,9 @@ section, section article {
   border: 2px solid #f6f6f6;
   background-color: snow;
 }
+.img_restau {
+  width: 30%;
+}
 
 .fonc_texte {
   border: 2px solid #f6f6f6;

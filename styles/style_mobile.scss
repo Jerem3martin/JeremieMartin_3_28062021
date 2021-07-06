@@ -84,6 +84,8 @@ $cd-tertiaire: #99E2D0;
         }
 }
 
+
+
 .titre_section {
     font-size: 1.6em;
     padding-left: 20px;
@@ -100,6 +102,9 @@ $cd-tertiaire: #99E2D0;
         margin: 0px;
         border-radius: 20px 20px 0px 0px;
 }
+.btn_new {
+    
+}
 .info_menu {
     margin-top: 0px;
 }
@@ -113,8 +118,14 @@ $cd-tertiaire: #99E2D0;
     color: black;
 }
 .coeur {
-    position: absolute;
-    left: 87%;
+    position: relative  ;
+    left: 85%;
+    top: -53px;
+    font-size: 1.5em;
+    width: fit-content;
+    &:hover {
+        background: linear-gradient(top, lighten($cd-primaire, 5) 0%, darken($cd-secondaire, 10) 100%);
+    }
 }
 a {
     text-decoration: none;

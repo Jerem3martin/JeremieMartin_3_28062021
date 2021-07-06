@@ -161,8 +161,18 @@
 }
 
 .coeur {
-  position: absolute;
-  left: 87%;
+  position: relative;
+  left: 85%;
+  top: -53px;
+  font-size: 1.5em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.coeur:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#a16be0), to(#ff46cc));
+  background: linear-gradient(top, #a16be0 0%, #ff46cc 100%);
 }
 
 a {

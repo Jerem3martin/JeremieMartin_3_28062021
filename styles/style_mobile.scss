@@ -20,7 +20,7 @@ $cd-tertiaire: #99E2D0;
     padding-right: 15px;
 }
 
-.intro_menu, aside {
+.intro_menu {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -37,16 +37,17 @@ $cd-tertiaire: #99E2D0;
     background: linear-gradient(top, lighten($cd-secondaire, 5) 0%, darken($cd-primaire, 10) 100%)
 }
 
+.fonc {
+    padding: 8px 20px;
+}
 .fonction {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .fonc_number {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 135px;
     border: 2px solid $cd-primaire;
     background-color: $cd-primaire;
     border-radius: 50px;
@@ -56,21 +57,23 @@ $cd-tertiaire: #99E2D0;
     color: white;
     z-index: 2;
 }
+.icon {
+    margin: 0 20px 0 30px;
+    align-self: center;
+}
 .fonc_texte {
-        width: 50%;
+        width: 100%;
         display: flex;
-        justify-content: center;
         align-self: center;
         padding: 15px;
         border-radius: 15px;
-        justify-content: space-evenly;
+        justify-content: center;
         z-index: 1 ;
         transition: background-color 250ms;
         &:hover {
                  background-color: lighten($cd-primaire,35);
         }
 }
-
 
 .titre_section {
     font-size: 1.6em;
@@ -98,25 +101,15 @@ $cd-tertiaire: #99E2D0;
     align-self: center;
     padding-left: 10px;
     line-height: 0;
+    color: black;
 }
 .coeur {
     position: absolute;
-    left: ;
-    &_1 {
-        top: ;
-    }
-    &_2 {
-        top: ;
-    }
-    &_3 {
-        top: ;
-    }
-    &_4 {
-        top: ;
-    }
+    left: 87%;
 }
 a {
     text-decoration: none;
+    color: black;
     &:visited {
         color: black;
     }

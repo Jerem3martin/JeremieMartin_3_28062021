@@ -2,6 +2,11 @@ $cd-primaire: #9356DC;
 $cd-secondaire: #FF79DA;
 $cd-tertiaire: #99E2D0;
 
+@font-face {
+    font-family: "shrikhand";
+    src: local(police/shrikhand) format(ttf);
+}
+
 .logo {
     display: flex;
     width: 50%;
@@ -113,4 +118,8 @@ a {
     &:visited {
         color: black;
     }
+}
+
+footer {
+    font-family: "shrikhand";
 }

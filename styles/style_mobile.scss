@@ -141,8 +141,21 @@ $cd-tertiaire: #99E2D0;
     top: -53px;
     font-size: 1.5em;
     width: fit-content;
+}
+.coeur_vide {
+    position: absolute;
     &:hover {
-        background: linear-gradient(top, lighten($cd-primaire, 5) 0%, darken($cd-secondaire, 10) 100%);
+        display: none;
+        z-index: -1;
+    }
+}
+.coeur_plein {
+    position: absolute;
+    display: none;
+    &:hover {
+        display: flex;
+        z-index: 1;
+        color: linear-gradient(bottom, lighten($cd-primaire, 5) 0%, darken($cd-secondaire, 10) 100%);
     }
 }
 a {

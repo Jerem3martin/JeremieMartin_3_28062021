@@ -198,9 +198,26 @@
   width: fit-content;
 }
 
-.coeur:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#a16be0), to(#ff46cc));
-  background: linear-gradient(top, #a16be0 0%, #ff46cc 100%);
+.coeur_vide {
+  position: absolute;
+}
+
+.coeur_vide:hover {
+  display: none;
+  z-index: -1;
+}
+
+.coeur_plein {
+  position: absolute;
+  display: none;
+}
+
+.coeur_plein:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  color: linear-gradient(bottom, #a16be0 0%, #ff46cc 100%);
 }
 
 a {

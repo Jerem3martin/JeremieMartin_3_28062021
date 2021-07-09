@@ -6,16 +6,30 @@
     font-family: "roboto";
     src: url(police/Roboto-Regular.ttf);
 }
-
+body {
+    width: 100%;
+}
 main {
-    background-color: #f6f6f6;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin: 0px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 .pics {
     width: 100%;
+    z-index: -1;
+    position: fixed;
+    height: 360px;
 }
 nav {
     display: flex;
     justify-content: space-between;
+    margin-top: 335px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 .coeur {
     align-self: center;

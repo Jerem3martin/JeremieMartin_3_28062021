@@ -47,7 +47,7 @@ $cd-tertiaire: #99E2D0;
     margin: 20px 0 40px 0;
     font-size: 1em;
     color: white;
-    background: linear-gradient(top, lighten($cd-secondaire, 5) 0%, darken($cd-primaire, 10) 100%)
+    background: linear-gradient(top, lighten($cd-secondaire, 5) 0%, darken($cd-primaire, 10) 100%);
 }
 
 .fonc {
@@ -151,11 +151,12 @@ $cd-tertiaire: #99E2D0;
 }
 .coeur_plein {
     position: absolute;
-    display: none;
+    transition: color 250ms;
+    opacity: 0;
     &:hover {
         display: flex;
-        z-index: 1;
-        color: linear-gradient(bottom, lighten($cd-primaire, 5) 0%, darken($cd-secondaire, 10) 100%);
+        opacity: 1;
+        background: linear-gradient(#ff79da, #9356dc);
     }
 }
 a {

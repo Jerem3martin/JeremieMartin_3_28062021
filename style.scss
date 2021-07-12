@@ -2,10 +2,13 @@ $cd-primaire: #9356DC;
 $cd-secondaire: #FF79DA;
 $cd-tertiaire: #99E2D0;
 
-footer {
-    background-color: #353535;
-    color: snow;
-    padding: 10px 0 20px 20px;
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    font-size: 2em;
 }
 
 section {
@@ -15,6 +18,58 @@ section {
 }
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.intro_lieu {
+    display: flex;
+    align-items: center;
+}
+.lieu {
+    display: flex;
+    padding-right: 10px;
+}
+
+.intro_menu {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    border: 2px solid $cd-primaire;
+    background-color: $cd-primaire;
+    padding: 10px;
+    font-size: 0.6em;
+}
+
+
+.fonc {
+    display: flex;
+    flex-direction: column;
+}
+.fonction {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.fonc_texte {
+    border: 2px solid #f6f6f6;
+    background-color: #f6f6f6;
+    margin: 5px;
+    display: flex;
+}
+.icon {
+    padding-right: 10px;
+}
+
+
+.titre_section {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
 .card_restau {
     border: 2px solid #f6f6f6;
     background-color: snow;
@@ -26,13 +81,10 @@ section {
     object-fit: cover;
 }
 
-.fonc_texte {
-    border: 2px solid #f6f6f6;
-    background-color: #f6f6f6;
-    margin: 5px;
-}
 
-.btn {
-    border: 2px solid $cd-primaire;
-    background-color: $cd-primaire;
+
+footer {
+    background-color: #353535;
+    color: snow;
+    padding: 10px 0 20px 20px;
 }

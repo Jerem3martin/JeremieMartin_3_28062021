@@ -10,11 +10,18 @@
 }
 
 main {
-  background-color: #f6f6f6;
+  background-color: #f2f2f2;
+  width: 100%;
+  margin: 0px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 .pics {
   width: 100%;
+  z-index: -1;
+  position: fixed;
+  height: 360px;
 }
 
 nav {
@@ -24,6 +31,11 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 335px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 .coeur {

@@ -1,7 +1,14 @@
-footer {
-  background-color: #353535;
-  color: snow;
-  padding: 10px 0 20px 20px;
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  font-size: 2em;
 }
 
 section {
@@ -10,6 +17,96 @@ section {
 
 section, section article {
   background-color: #f6f6f6;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.intro_lieu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lieu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 10px;
+}
+
+.intro_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn {
+  border: 2px solid #9356DC;
+  background-color: #9356DC;
+  padding: 10px;
+  font-size: 0.6em;
+}
+
+.fonc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fonction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.fonc_texte {
+  border: 2px solid #f6f6f6;
+  background-color: #f6f6f6;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+.titre_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 15px;
 }
 
 .card_restau {
@@ -24,14 +121,9 @@ section, section article {
      object-fit: cover;
 }
 
-.fonc_texte {
-  border: 2px solid #f6f6f6;
-  background-color: #f6f6f6;
-  margin: 5px;
-}
-
-.btn {
-  border: 2px solid #9356DC;
-  background-color: #9356DC;
+footer {
+  background-color: #353535;
+  color: snow;
+  padding: 10px 0 20px 20px;
 }
 /*# sourceMappingURL=style.css.map */

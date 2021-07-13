@@ -9,6 +9,10 @@
   src: url(police/Roboto-Regular.ttf);
 }
 
+body {
+  width: 100%;
+}
+
 main {
   background-color: #f2f2f2;
   width: 100%;

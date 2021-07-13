@@ -42,7 +42,7 @@ $cd-tertiaire: #99E2D0;
 .btn {
     display: flex;
     align-self: center;
-    border-radius: 30px;
+    border-radius: 50px;
     padding: 20px;
     margin: 20px 0 40px 0;
     font-size: 1em;
@@ -56,9 +56,11 @@ $cd-tertiaire: #99E2D0;
 .fonction {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 .fonc_number {
     display: flex;
+    justify-content: center;
     align-items: center;
     position: absolute;
     border: 2px solid $cd-primaire;
@@ -114,12 +116,11 @@ $cd-tertiaire: #99E2D0;
     display: flex;
     color: green;
     position: relative;
-    right: 100px;
+    right: 180px;
     top: 10px;
     border: 2px solid $cd-tertiaire;
     background-color: $cd-tertiaire;
-    width: 80px;
-    height: 30px;
+    height: 43px;
     padding: 4px 4px 0;
     border-radius: 4px;
 }
@@ -129,17 +130,17 @@ $cd-tertiaire: #99E2D0;
 .texte_menu {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     align-self: center;
     padding-left: 10px;
     line-height: 0;
     color: black;
 }
 .coeur {
-    position: relative  ;
+    position: relative;
     left: 85%;
-    top: -53px;
-    font-size: 1.5em;
+    top: -132px;
+    font-size: 1em;
     width: fit-content;
 }
 .coeur_vide {

@@ -26,6 +26,8 @@ main {
   z-index: -1;
   position: fixed;
   height: 360px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 nav {

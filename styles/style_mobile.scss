@@ -91,15 +91,24 @@ $cd-tertiaire: #99E2D0;
 }
 
 
-
 .titre_section {
     font-size: 1.6em;
     padding: 40px 0 0 20px;
+}
+.pack {
+    &, &_2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
 }
 .card_restau {
     margin: 0px 20px 20px 20px;
     background-color: white;
     border-radius: 20px;
+    width: 94%;
 }
 .image_btn {
     display: flex;

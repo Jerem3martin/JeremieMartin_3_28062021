@@ -98,9 +98,17 @@ nav {
     justify-content: center;
     padding-top: 15px;
 }
+.pack {
+    &, &_2 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+}
 .card_restau {
     border: 2px solid #f6f6f6;
     background-color: snow;
+    width: 45%;
 
 }
 .img_restau {

@@ -124,7 +124,40 @@ nav {
     max-height: 231px;
     object-fit: cover;
 }
-
+.btn_new {
+    display: flex;
+    color: green;
+    border: 2px solid $cd-tertiaire;
+    background-color: $cd-tertiaire;
+    height: 43px;
+    padding: 4px 4px 0;
+    border-radius: 4px;
+    width: fit-content;
+}
+.coeur {
+    position: relative;
+    left: 85%;
+    top: -132px;
+    font-size: 1em;
+    width: fit-content;
+}
+.coeur_vide {
+    position: absolute;
+    &:hover {
+        display: none;
+        z-index: -1;
+    }
+}
+.coeur_plein {
+    position: absolute;
+    transition: color 250ms;
+    opacity: 0;
+    &:hover {
+        display: flex;
+        opacity: 1;
+        background: linear-gradient(#ff79da, #9356dc);
+    }
+}
 
 
 footer {

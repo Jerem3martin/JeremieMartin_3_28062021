@@ -27,6 +27,8 @@ nav {
 .intro_lieu {
     display: flex;
     align-items: center;
+    padding: 0px 173px;
+    background-color: #f2f2f2;
 }
 .lieu {
     display: flex;
@@ -36,6 +38,8 @@ nav {
 .intro_menu {
     display: flex;
     flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 10px;
 }
 .btn {
     border: 2px solid $cd-primaire;
@@ -46,22 +50,46 @@ nav {
 
 
 .fonc {
-    display: flex;
-    flex-direction: column;
+    padding: 8px 20px;
 }
 .fonction {
     display: flex;
     align-items: center;
-    margin: 10px;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    border-radius: 50px;
 }
-.fonc_texte {
-    border: 2px solid #f6f6f6;
-    background-color: #f6f6f6;
-    margin: 5px;
+.fonc_number {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid $cd-primaire;
+    background-color: $cd-primaire;
+    border-radius: 50px;
+    padding: 10px;
+    max-height: 10px;
+    max-width: 10px;
+    color: white;
+    z-index: 2;
 }
 .icon {
-    padding-right: 10px;
+    margin: 0 20px 0 30px;
+    align-self: center;
+}
+.fonc_texte {
+        width: 100%;
+        display: flex;
+        align-self: center;
+        padding: 15px;
+        border-radius: 15px;
+        justify-content: center;
+        z-index: 1 ;
+        transition: background-color 250ms;
+        &:hover {
+                 background-color: lighten($cd-primaire,35);
+        }
 }
 
 

@@ -2,6 +2,10 @@ $cd-primaire: #9356DC;
 $cd-secondaire: #FF79DA;
 $cd-tertiaire: #99E2D0;
 
+a {
+    color: black;
+    text-decoration: none;
+}
 header {
     display: flex;
     justify-content: center;

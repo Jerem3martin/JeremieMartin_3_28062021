@@ -16,11 +16,24 @@ main {
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
+article {
+    margin-left: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fas {
+    position: absolute;
+    left: 15px;
+}
 .pics {
     width: 100%;
     z-index: -1;
     position: fixed;
     height: 360px;
+    object-fit: cover;
 }
 nav {
     display: flex;

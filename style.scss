@@ -32,7 +32,7 @@ nav {
     display: flex;
     align-items: center;
     padding: 0px 173px;
-    background-color: #f2f2f2;
+    background-color: #eaeaea;
 }
 .lieu {
     display: flex;
@@ -46,10 +46,14 @@ nav {
     padding: 10px;
 }
 .btn {
-    border: 2px solid $cd-primaire;
-    background-color: $cd-primaire;
-    padding: 10px;
-    font-size: 0.6em;
+    display: flex;
+    align-self: center;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px 0 40px 0;
+    font-size: 1em;
+    color: white;
+    background: linear-gradient(top, lighten($cd-secondaire, 5) 0%, darken($cd-primaire, 10) 100%);
 }
 
 

@@ -24,6 +24,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
 }
 a {
     color: black;
@@ -41,7 +46,7 @@ a {
     z-index: -1;
     position: fixed;
     height: 360px;
-    top: 100px;
+    top: 10px;
     object-fit: cover;
 }
 nav {

@@ -23,6 +23,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
 }
 a {
     color: black;
@@ -41,6 +46,7 @@ a {
     position: fixed;
     height: 360px;
     object-fit: cover;
+    top: 15px;
 }
 nav {
     display: flex;

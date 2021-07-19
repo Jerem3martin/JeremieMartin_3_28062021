@@ -23,6 +23,11 @@ main {
 article {
     margin-left: 10px;
 }
+.menu {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
 header{
     display: flex;
     justify-content: center;

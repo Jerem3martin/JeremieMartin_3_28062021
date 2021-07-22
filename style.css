@@ -45,7 +45,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0px 173px;
+  padding: 0px 263px;
   background-color: #eaeaea;
 }
 
@@ -65,7 +65,7 @@ nav {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #f2f2f2;
-  padding: 10px;
+  padding: 100px;
 }
 
 .btn {
@@ -195,6 +195,9 @@ nav {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  position: relative;
+  bottom: 220px;
+  left: 850px;
 }
 
 .coeur {

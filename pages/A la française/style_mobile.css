@@ -33,9 +33,7 @@ article {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
+  max-width: 500px;
 }
 
 header {
@@ -100,9 +98,7 @@ nav {
   margin-right: 30px;
 }
 
-.entrée {
-  width: 25%;
-}
+
 .entrée_1, .entrée_2, .entrée_3 {
   border: 2px solid black;
   background-color: white;
@@ -124,9 +120,6 @@ nav {
   bottom: 45px;
 }
 
-.plat {
-  width: 25%;
-}
 .plat_1, .plat_2, .plat_3 {
   border: 2px solid black;
   background-color: white;
@@ -137,9 +130,6 @@ nav {
   height: 75px;
 }
 
-.dessert {
-  width: 25%;
-}
 .dessert_1, .dessert_2, .dessert_3 {
   border: 2px solid black;
   background-color: white;

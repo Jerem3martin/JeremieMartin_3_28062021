@@ -156,13 +156,6 @@
   width: 94%;
 }
 
-.image_btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
-
 .img_restau {
   width: 100%;
   max-height: 394px;

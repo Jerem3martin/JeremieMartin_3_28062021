@@ -1,4 +1,4 @@
-a {
+.pages_menu {
   color: black;
   text-decoration: none;
 }
@@ -250,5 +250,10 @@ footer {
   background-color: #353535;
   color: snow;
   padding: 10px 0 20px 20px;
+}
+
+.page_footer {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

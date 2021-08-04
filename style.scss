@@ -85,6 +85,9 @@ nav {
 .icon {
     margin: 0 20px 0 30px;
     align-self: center;
+    &:hover {
+        color: $cd-primaire;
+    }
 }
 .fonc_texte {
         width: 100%;
@@ -96,7 +99,10 @@ nav {
         z-index: 1 ;
         transition: background-color 250ms;
         &:hover {
-                 background-color: lighten($cd-primaire,35);
+            background-color: lighten($cd-primaire,35);
+        }
+        &:hover i {
+            color: $cd-primaire;
         }
 }
 

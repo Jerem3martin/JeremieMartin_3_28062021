@@ -98,6 +98,7 @@ nav {
   margin-right: 30px;
 }
 
+
 .entrée_1, .entrée_2, .entrée_3 {
   border: 2px solid black;
   background-color: white;

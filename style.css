@@ -128,6 +128,10 @@ nav {
       align-self: center;
 }
 
+.icon:hover {
+  color: #9356DC;
+}
+
 .fonc_texte {
   width: 100%;
   display: -webkit-box;
@@ -147,6 +151,10 @@ nav {
 
 .fonc_texte:hover {
   background-color: #f2eafb;
+}
+
+.fonc_texte:hover i {
+  color: #9356DC;
 }
 
 .titre_section {

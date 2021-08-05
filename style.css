@@ -1,4 +1,4 @@
-.pages_menu {
+a {
   color: black;
   text-decoration: none;
 }
@@ -203,9 +203,6 @@ nav {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  position: relative;
-  bottom: 220px;
-  left: 850px;
 }
 
 .coeur {
@@ -241,7 +238,7 @@ nav {
   opacity: 1;
   background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
   background: linear-gradient(#ff79da, #9356dc);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: transparent;
 }
@@ -252,8 +249,15 @@ footer {
   padding: 10px 0 20px 20px;
 }
 
-.page_footer {
-  text-decoration: none;
-  color: white;
+.background_image_test {
+  background: url(restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.background_image_test > p {
+  position: relative;
+  right: 10px;
+  top: 15px;
 }
 /*# sourceMappingURL=style.css.map */

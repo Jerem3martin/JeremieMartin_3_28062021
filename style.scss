@@ -139,9 +139,6 @@ nav {
     padding: 4px 4px 0;
     border-radius: 4px;
     width: fit-content;
-    position:relative;
-    bottom: 220px;
-    left: 850px;
 }
 .coeur {
     position: relative;
@@ -176,4 +173,15 @@ footer {
     background-color: #353535;
     color: snow;
     padding: 10px 0 20px 20px;
+}
+
+.background_image_test {
+    background: url(restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.background_image_test > p {
+    position: relative;
+    right: 10px;
+    top: 15px;
 }

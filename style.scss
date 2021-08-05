@@ -162,7 +162,7 @@ nav {
         display: flex;
         opacity: 1;
         background: linear-gradient(#ff79da, #9356dc);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke-color: transparent;
     }

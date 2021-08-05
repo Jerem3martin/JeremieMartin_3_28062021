@@ -110,8 +110,7 @@ $cd-tertiaire: #99E2D0;
     border-radius: 20px;
     width: 94%;
 }
-.image_btn {
-}
+
 .img_restau {
         width: 100%;
         max-height: 394px;
@@ -165,7 +164,7 @@ $cd-tertiaire: #99E2D0;
         display: flex;
         opacity: 1;
         background: linear-gradient(#ff79da, #9356dc);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke-color: transparent;
     }
